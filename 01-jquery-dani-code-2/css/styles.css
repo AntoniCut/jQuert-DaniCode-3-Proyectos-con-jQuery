@@ -1,0 +1,49 @@
+body {
+    background: #000;
+    color: #fff;
+    font-size: 1em;
+}
+
+.h1 {
+    text-align: center;
+}
+
+#div1 {
+    background: green;
+}
+
+#div2 {
+    background: yellow;
+}
+
+#div3 {
+    background: blue;
+}
+
+#div4 {
+    background: red;
+}
+
+#div1, #div2, #div3, #div4 {
+    width: 350px;
+    height: 200px;
+    /*display: none;*/
+}
+
+.div5 {
+    background: lightcoral;
+    width: 350px;
+    height: 200px;
+}
+
+#div6 * {
+    display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 15px;
+}
+
+a {
+    color: white
+}
